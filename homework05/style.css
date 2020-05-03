@@ -1,0 +1,365 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+header {
+  width: 1110px;
+  margin: 0 auto;
+}
+
+.logotype {
+  font-size: 30px;
+  line-height: 32px;
+  text-transform: uppercase;
+  font-weight: 300;
+  float: left;
+  font-family: "Roboto", sans-serif;
+  color: rgba(0, 0, 0, 1);
+}
+
+.logotype::first-letter {
+  color: rgba(26, 188, 156, 1);
+  font-size: 30px;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-weight: bold;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  margin: 0 auto;
+  width: 1600px;
+}
+
+.navigation__link:not(:last-child) {
+  margin-right: 36px;
+}
+
+.navigation__item {
+  font-size: 14px;
+  line-height: 17px;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+  float: right;
+}
+
+.navigation__link {
+  float: left;
+  margin-top: 8px;
+}
+
+header {
+  padding-top: 40px;
+  padding-bottom: 90px;
+  font-family: "Roboto", sans-serif;
+  width: 1110px;
+  height: 92px;
+  margin: 0 auto;
+  vertical-align: middle;
+}
+
+main {
+  width: 1600px;
+  background-color: rgba(233, 240, 253, 1);
+}
+
+h2 {
+  font-size: 48px;
+  font-family: "Roboto";
+  line-height: 1.15;
+  color: #000000;
+  text-transform: uppercase;
+  color: rgba(81, 81, 81, 1);
+  text-align: center;
+  padding-bottom: 118px;
+}
+
+.new-collection::after {
+  display: block;
+  content: "";
+  width: 164px;
+  height: 7px;
+  background-color: rgba(26, 188, 156, 1);
+  margin: 0 auto;
+  margin-top: 30px;
+}
+
+.menu__item {
+  font-size: 14px;
+  line-height: 17px;
+  color: #000000;
+  font-weight: bold;
+}
+
+.navigation__link a:hover {
+  color: rgba(26, 188, 156, 1);
+}
+
+.product-container {
+  width: 1600px;
+  margin: 0 auto;
+  padding-top: 170px;
+}
+
+.slider-container {
+  display: block;
+  position: relative;
+}
+
+.slider-text {
+  position: absolute;
+  z-index: 100;
+  left: 50%;
+  top: 44%;
+  transform: translateX(-50%) translateY(-50%);
+}
+
+.slider-container::before {
+  background-color: rgba(0, 0, 0, 0.522);
+  content: "";
+  display: block;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+
+.arrows {
+  display: block;
+  width: 1110px;
+  height: 104px;
+  z-index: 150;
+  position: absolute;
+  left: 50%;
+  top: 45%;
+  transform: translateX(-50%) translateY(-50%);
+}
+
+.right-arrow {
+  height: 104px;
+  width: 104px;
+  background-color: rgba(26, 188, 156, 0.5);
+  float: right;
+  z-index: 200;
+  background-image: url(./image/angle-right.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+  cursor: pointer;
+  border-style: none;
+}
+
+.left-arrow {
+  height: 104px;
+  width: 104px;
+  background-color: rgba(26, 188, 156, 0.5);
+  float: left;
+  z-index: 200;
+  background-image: url(./image/angle-left.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+  cursor: pointer;
+  border-style: none;
+}
+
+.left-arrow:hover {
+  background-color: rgba(26, 188, 156, 1);
+}
+
+.right-arrow:hover {
+  background-color: rgba(26, 188, 156, 1);
+}
+
+.slider-name {
+  font-size: 60px;
+  line-height: 1.15;
+  color: #ffffff;
+  font-family: "Roboto";
+  font-weight: 900;
+  text-transform: uppercase;
+  padding-bottom: 0px;
+}
+
+.slider-second-name {
+  font-size: 24px;
+  font-family: "Roboto";
+  font-weight: 300;
+  color: #ffffff;
+  margin-top: 20px;
+  text-transform: uppercase;
+}
+
+.product_image {
+  width: 255px;
+}
+
+.box {
+  width: 1110px;
+  margin: 0 auto;
+}
+
+.product {
+  float: left;
+  width: 255px;
+  margin-right: 30px;
+  margin-bottom: 102px;
+  position: relative;
+  background-color: #000000;
+}
+
+.product:nth-child(4) {
+  margin: 0 auto;
+}
+
+.product__name {
+  display: block;
+  font-size: 18px;
+  line-height: 40px;
+  color: rgba(255, 255, 255, 1);
+  float: left;
+  text-transform: uppercase;
+  width: 202px;
+  height: 40px;
+  padding-left: 14px;
+  font-weight: 700;
+  background-color: rgba(50, 50, 50, 1);
+}
+
+.price {
+  display: inline-block;
+  font-size: 18px;
+  line-height: 40px;
+  color: rgba(255, 255, 255, 1);
+  text-transform: uppercase;
+  font-weight: 700;
+  width: 53px;
+  height: 40px;
+  padding-left: 11px;
+  background-color: rgba(255, 255, 255, 0.43);
+}
+
+.product :hover {
+  background-color: rgba(26, 188, 156, 1);
+}
+
+.overlay {
+  width: 255px;
+  height: 285px;
+  position: absolute;
+  left: 50.5%;
+  top: 43.5%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+  background-clip: padding-box;
+  border: 10px solid rgba(255, 255, 255, 0.55);
+  background-position: center;
+  text-align: center;
+  padding-top: 35%;
+  z-index: 1;
+  display: none;
+}
+
+.btn {
+  background-repeat: no-repeat;
+  background-position: center;
+  border-width: 1px;
+  border-style: solid;
+  background-color: transparent;
+  outline: none;
+  border: 1px solid #fff;
+  cursor: pointer;
+}
+
+.like {
+  background-image: url(./image/like.svg);
+  width: 50px;
+  height: 50px;
+}
+
+.shuffle {
+  background-image: url(./image/shuffle.png);
+  width: 50px;
+  height: 50px;
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-bottom: 5px;
+}
+
+.clock {
+  background-image: url(./image/clock.png);
+  width: 50px;
+  height: 50px;
+}
+
+.cart {
+  background-image: url(./image/cart.svg);
+  background-position: 10% 50%;
+  width: 168px;
+  height: 50px;
+  background-color: rgba(50, 50, 50);
+  margin-top: 5px;
+  background-color: #323232;
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 14px;
+  font-family: "Open Sans", sans-serif;
+  padding-left: 40px;
+}
+
+.btn:hover {
+  background-color: #1abc9c;
+}
+
+.cart:hover .overlay {
+  background-color: #1abc9c;
+}
+
+.overlay:hover {
+  background-color: rgba(0, 0, 0, 0.5);
+  border: 10px solid rgba(255, 255, 255, 0.55);
+}
+
+.product:hover .overlay {
+  display: block;
+}
+
+footer {
+  padding-top: 35px;
+  padding-bottom: 35px;
+  font-family: "Open Sans", sans-serif;
+  color: #fff;
+  text-align: center;
+  background-color: #323232;
+}
+
+.footer a {
+  color: #46bfa9;
+}
