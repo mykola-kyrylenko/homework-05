@@ -17,6 +17,8 @@ img {
   display: block;
   max-width: 100%;
   height: auto;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 a {
@@ -55,7 +57,6 @@ header {
 body {
   font-family: "Roboto", sans-serif;
   margin: 0 auto;
-  width: 1600px;
 }
 
 .navigation__link:not(:last-child) {
@@ -87,7 +88,6 @@ header {
 }
 
 main {
-  width: 1600px;
   background-color: rgba(233, 240, 253, 1);
 }
 
@@ -124,7 +124,6 @@ h2 {
 }
 
 .product-container {
-  width: 1600px;
   margin: 0 auto;
   padding-top: 170px;
 }
@@ -349,6 +348,7 @@ h2 {
 
 .product:hover .overlay {
   display: block;
+  cursor: pointer;
 }
 
 footer {
